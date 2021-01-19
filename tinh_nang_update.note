@@ -1,0 +1,59 @@
+If you would like to get up to date yourself with the latest features of JavaScript versions check below:
+ES2021/ES12
+replaceAll(): returns a new string with all matches of a pattern replaced by the new replacement word.
+Promise.any(): It takes an iterable of Promise objects and as one promise fulfills, return a single promise with the value.
+weakref: This object holds a weak reference to another object without preventing that object from getting garbage-collected.
+FinalizationRegistry: Lets you request a callback when an object is garbage collected.
+Private visibility modifier for methods and accessors: Private methods can be declared with #.
+Logical Operators : && and || operators.
+Numeric Separators: enables underscore as a separator in numeric literals to improve readability.
+Intl.ListFormat : This object enables language-sensitive list formatting.
+Intl.DateTimeFormat : This object enables language-sensitive date and time formatting.
+ES2020/ES11
+10. BigInt: provides a way to represent numbers(whole) larger than 253–1
+11. Dynamic Import: Dynamic imports give the option to import JS files dynamically as modules. It will help you to get modules on demand.
+12. Nullish coalescing Operator: returned the right-hand side value if the left-hand side is null or undefined. By default, it will return the left-side value.
+13. globalThis: contains the global this value, which basically works as a global object.
+14. Promise.allSettled(): returns a promise which basically contains the array of objects with the outcome of each promise.
+15. Optional Chaining: read the value with any connected objects or check methods and check if property existing or not.
+16. String.prototype.matchAll(): returns an iterator of all results matching a string against the regex.
+17. Named Export: With this feature, we can have multiple named exports per file.
+18. Well defined for-in order:
+19. import.meta: object exposes context-specific metadata to a JS module
+ES2019/ES10
+20. Array.flat(): creates a new array by combining the other arrays in the main array. Note: we can set the depth to combine arrays.
+21. Array.flatmap: creates a new array by applying callback function to each element of the array.
+22. Object.fromEntries(): transforms a list of key-value pairs into an object.
+23. String.trimStart() & String.trimEnd(): method removes whitespace from the beginning and end of a string.
+24. try…catch: statement marks a block of statements to try and if any error occurs catch will handle it.
+25. Function.toString(): converts any method/code to string.
+26. Symbol.prototype.description: returns optional description of Symbol objects.
+ES2018/ES9
+27. Asynchronous Iteration: With the help of async and await now we can run the series of asynchronous iterations in the for a loop.
+28. Promise.finally(): returns a promise when it is settled or rejected. It will help to avoid duplicating then and catch handlers.
+29. Rest/Spread Properties: for object destructuring and arrays.
+30. Regular Expression Named Capture Groups: can group to be named using the notation ?<name>after the opening bracket.
+31. Regular Expression s (dotAll) Flag: matches any single character except carriage returns. The s flag changes this behavior so line terminators are permitted
+32. Regular Expression Unicode Property Escapes: can set the Unicode property escapes with Unicode u flag set and \p{…} and \p{…}
+ES2017/ES8
+33. Object.entries():returns an array of a given objects key and value pairs.
+34. Object.values(): returns an array of given object’s property values.
+35. padStart(): pads the current string with another string until the resulting string reaches the length.
+36. padEnd(): pads the current string with the given string from the end of the current string.
+37. Object.getOwnPropertyDescriptors(): returns all own property descriptors of a given object.
+38. Async functions: expand on Promises to make asynchronous calls.
+ES2016/ES7
+39. Array.prototype.includes(): determines whether an array includes a certain value among the given value. It returns true or false.
+40. Exponentiation: returns a result of raising the first operand to the power of the second operand.
+ES2015/ES6
+41. Arrow function expressions: is alternative to traditional functional expression for some cases
+42. Enhanced Object Literals: extended to support setting the object constructions.
+43. Classes: create class using class keyword.
+44. Template Literals: can add parameters directly in the string using ${param}
+45. Destructuring Assignment: helps to unpack values from arrays or properties from objects.
+46. Default + Rest + Spread: supports the default value, spread parameter or array as arguments.
+47. Let + Const:
+48. Promises: used for async operations.
+49. Modules:
+50. Map + Set + WeakMap + WeakSet:
+51. Math + Number + String + Array + Object APIs:
